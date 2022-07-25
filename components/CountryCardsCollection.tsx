@@ -1,11 +1,11 @@
 import { FunctionComponent, ReactNode } from "react";
 import CountryCard from "../components/CountryCard";
 
-type Props = {
-  childComponent?: ReactNode;
-};
+interface ICountryCardsCollectionProps {
+  children: ReactNode;
+}
 
-const CountryCardsCollection: FunctionComponent<Props> = () => {
+const CountryCardsCollection: FunctionComponent<ICountryCardsCollectionProps> = () => {
   return (
     <div>
       <CountryCard />
