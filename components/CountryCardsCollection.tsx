@@ -6,13 +6,7 @@ interface ICountryCardsCollectionProps {
 }
 
 const CountryCardsCollection: FunctionComponent<ICountryCardsCollectionProps> = () => {
-  return (
-    <div>
-      <CountryCard />
-      <CountryCard />
-      <CountryCard />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default CountryCardsCollection;
