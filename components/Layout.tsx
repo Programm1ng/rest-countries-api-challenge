@@ -13,7 +13,7 @@ const Layout: FunctionComponent<ILayoutProps> = ({ children, isDarkMode, setIsDa
     <>
       <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

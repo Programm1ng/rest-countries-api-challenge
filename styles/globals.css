@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.comboBox-menu-enter {
+  @apply opacity-0;
+}
+
+.comboBox-menu-enter-active {
+  @apply opacity-100 transition-all duration-300;
+}
+
+.comboBox-menu-enter-done {
+  @apply opacity-100;
+}
